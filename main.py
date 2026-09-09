@@ -254,6 +254,10 @@ QUIZ_DATA = [
     {
         "question": "🌋 Sebutkan gunung berapi aktif yang terkenal di Indonesia!",
         "answers": ["merapi", "bromu", "rinjani", "kerinci", "krakatau"]
+    },
+    {
+        "question": "sebutkan 7 keajaiban dunia!",
+        "answers": ["piramida", "koloseum", "tembok cina", "taj mahal", "liberty", "sasa", "pisa"]
     }
 ]
 
