@@ -1,4 +1,4 @@
-# Telegram Bot Tebak-Tebakan 🎯
+# Telegram Bot Tebak-Tebakan 
 
 Bot Telegram interaktif untuk bermain game tebak-tebakan dengan fitur mode grup dan solo, sistem poin, serta leaderboard.
 
@@ -10,7 +10,7 @@ Bot Telegram interaktif untuk bermain game tebak-tebakan dengan fitur mode grup 
 - **Database Permanen**: Data tersimpan dengan SQLite
 - **Error Handling Lengkap**: Bot tetap stabil meski ada error
 
-## 🎮 Komando
+##  Command
 
 | Komando | Deskripsi |
 |---------|-----------|
@@ -21,7 +21,7 @@ Bot Telegram interaktif untuk bermain game tebak-tebakan dengan fitur mode grup 
 | `/skor` | Lihat leaderboard grup/chat |
 | `/poin` | Lihat total poin personal |
 
-## ⚙️ Instalasi
+##  Instalasi
 
 ### 1. Clone/Download Proyek
 ```bash
@@ -64,13 +64,13 @@ Bot akan mulai listening untuk pesan dan komando.
 5. Ronde selesai otomatis saat semua slot terisi
 6. Gunakan `/skor` untuk lihat leaderboard
 
-## 🗄️ Database
+##  Database
 
 - Semua data skor disimpan di `trivia_game.db`
 - Dihapus otomatis saat bot start (untuk demo)
 - Gunakan kode untuk persistent storage di production
 
-## 📦 Struktur Proyek
+##  Struktur Proyek
 
 ```
 Bot_tebak_tele/
@@ -80,7 +80,7 @@ Bot_tebak_tele/
 └── README.md           # File ini
 ```
 
-## 🛠️ Troubleshooting
+##  Troubleshooting
 
 **Bot tidak response:**
 - Pastikan token di `.env` benar
@@ -94,6 +94,6 @@ Bot_tebak_tele/
 - Pastikan sudah run `pip install -r requirements.txt`
 - Gunakan `pip install --upgrade pip`
 
-## 📄 Lisensi
+##  Lisensi
 
 Bebas digunakan untuk keperluan personal dan edukasi.
