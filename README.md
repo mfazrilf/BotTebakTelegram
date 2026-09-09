@@ -2,7 +2,7 @@
 
 Bot Telegram interaktif untuk bermain game tebak-tebakan dengan fitur mode grup dan solo, sistem poin, serta leaderboard.
 
-## 📋 Fitur Utama
+##  Fitur Utama
 
 - **Mode Grup & Solo**: Bermain bersama di grup atau pribadi
 - **Sistem Poin Real-time**: Update skor langsung setiap ada jawaban benar
