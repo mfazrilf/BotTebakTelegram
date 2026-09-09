@@ -258,6 +258,90 @@ QUIZ_DATA = [
     {
         "question": "sebutkan 7 keajaiban dunia!",
         "answers": ["piramida", "koloseum", "tembok cina", "taj mahal", "liberty", "sasa", "pisa"]
+    },
+    {
+        "question": "sebutkan 5 benua di dunia!",
+        "answers": ["asia", "afrika", "amerika", "eropa", "australia"]
+    },
+    {
+        "question": "sebutkan nama makanan daerah di indonesia!",
+        "answers": ["nasi padang", "sate", "rendang", "gado-gado", "nasi tumpeng" , "pempek", "soto", "bakso", "mie ayam", "nasi uduk"]
+    },
+    {
+        "question": "sebutkan nama hewan yang hidup di air!",
+        "answers": ["ikan", "paus", "lumba-lumba", "hiu", "udang", "kepiting", "gurita", "cumi-cumi", "buntal", "belut"]
+    },
+    {
+        "question": "sebutkan nama hewan yang hidup di darat!",
+        "answers": ["singa", "harimau", "gajah", "kuda", "kambing", "sapi", "kucing", "anjing", "ular", "monyet"]
+    },
+    {
+        "question": "sebutkan nama-nama bintang!",
+        "answers": ["sirius", "canopus", "arcturus", "vega", "capella", "rigel", "procyon", "achernar", "betelgeuse", "altair"]
+    },
+    {
+        "question": "Sebutkan hewan mamalia terbesar di dunia!",
+        "answers": ["Paus Biru", "Paus Sirip", "Paus Sperma", "Gajah Afrika", "Badak Putih"]
+    },
+    {
+        "question": "Sebutkan aplikasi media sosial yang paling banyak digunakan di dunia!",
+        "answers": ["facebook", "whatsapp", "instagram", "twitter", "tiktok" , "snapchat", "linkedin", "pinterest", "reddit", "Telegram"]
+    },
+    {
+        "question": "Sebutkan karakter attack on titan yang paling populer!",
+        "answers": ["eren", "mikasa", "armin", "levi", "zoe"]
+    },
+    {
+        "question": "Sebutkan karakter di anime naruto ",
+        "answers": ["naruto", "sasuke", "sakura", "kakashi", "itachi" ,"shikamaru", "hinata", "gaara", "neji", "jiraiya" , "tsunade", "orochimaru", "madara", "obito", "kushina" , "minato", "kiba", "ino", "choji", "shino" , "ama"]
+    },
+    {
+        "question": "Sebutkan karakter di animasi tangled",
+        "answers": ["rapunzel", "flynn", "pascal", "maximus", "mother gothel" , "cassandra", "varian", "stabbington brothers", "big nose thugs", "king frederick" , "queen arianna", "young rapunzel", "young flynn", "young pascal", "young maximus" , "young mother gothel", "young cassandra", "young varian", "young stabbington brothers", "young big nose thugs" , "frederick"]
+    },
+    {
+        "question": "Sebutkan karakter di game Mobile Legends",
+        "answers": ["alpha", "chou", "freya", "karina", "lancelot", "tigreal", "valentina", "zilong", "layla", "gusion" , "harley", "fanny", "alucard", "clint", "lesley", "odette", "eudora", "hylos", "kagura", "martis" , "nana", "odette", "pharsa", "robin", "saber", "taka", "valir", "x-borg", "zhask", "zilong" , "alucard" , "clint" , "lesley" , "odette" , "eudora" , "hylos" , "kagura" , "lilia" , "martis" , "nana" , "odette" , "pharsa" , "robin" , "saber" , "taka" , "valir" , "x-borg" , "zhask"]
+    },
+    {
+        "question": "Sebutkan karakter di game Genshin Impact",
+        "answers": ["amber", "barbara", "beidou", "bennett", "chongyun", "diluc", "fischl", "ganyu", "jean", "kaeya" , "keqing" , "klee" , "lisa" , "mona" , "ningguang" , "noelle" , "qiqi" , "razor" , "sucrose" , "tartaglia" , "venti" , "xiangling" , "xiao" , "xingqiu" , "xinyan" , "yanfei" , "zhongli"]
+    },
+    {
+        "question": "Sebutkan karakter di game Valorant",
+        "answers": ["brimstone", "phoenix", "sage", "sova", "viper", "cypher", "jett", "reyna", "killjoy", "skye" , "astra" , "yoru" , "kayo" , "chamber" , "neon" , "fade" , "harbor" , "gizmo" , "raze" , "breach"]
+    },
+    {
+        "question": "Sebutkan karakter di game Free Fire",
+        "answers": ["alok", "k", "jota", "hayato", "moco", "joseph", "laura", "maxim", "caroline", "clu" , "dasha" , "dimitri" , "diana"]
+    },
+    {
+        "question": "Sebutkan karakter di Harry Potter",
+        "answers": ["harry potter", "hermione granger", "ron weasley", "albus dumbledore", "severus snape", "draco malfoy", "sirius black", "remus lupin", "bellatrix lestrange", "voldemort" , "luna lovegood" , "neville longbottom" , "ginny weasley" , "fred weasley" , "george weasley" , "minerva mcgonagall" , "rubeus hagrid" , "dolores umbridge" , "lucius malfoy" , "narcissa malfoy", "raiven"]
+    },
+    {
+        "question": "Sebutkan sungai terpanjang di dunia!",
+        "answers": ["nile", "amazon", "yangtze", "mississippi", "yenisei"]
+    },
+    {
+        "question": "Sebutkan gunung berapi diindonesia!",
+        "answers": ["merapi", "semeru", "bromo", "raung", "sinabung"]
+    },
+    {
+        "question": "Sebutkan nama-nama pembalap f1!",
+        "answers": ["lewis hamilton", "max verstappen", "sebastian vettel", "fernando alonso", "kimi raikkonen", "charles leclerc", "daniel ricciardo", "valtteri bottas", "lance stroll", "sergio perez" , "george russell", "carlos sainz", "mick schumacher", "nicholas latifi", "kevin magnussen", "yuki tsunoda", "alexander albon", "esteban ocon", "lando norris", "pierre gasly"]
+    },
+    {
+        "question": "Sebutkan nama-nama pahlawanan indonesia!",
+        "answers": ["soekarno", "hatta", "sudirman", "tan malaka", "cut nyak dien", "pangeran diponegoro", "ra kartini", "sultan hasanuddin", "ir soekarno", "ir soeharto" , "jenderal sudirman" , "jenderal ahmad yani" , "jenderal nasution" , "jenderal gatot subroto" , "jenderal soedirman" , "jenderal soeharto" , "jenderal nasution" , "jenderal ahmad yani" , "jenderal gatot subroto" , "jenderal soedirman"]
+    },
+    {
+        "question": "Sebutkan nama-nama presiden indonesia!",
+        "answers": ["soekarno", "soeharto", "bj habibie", "gus dur", "megawati", "sby", "jokowi"]
+    },
+    {
+        "question": "Sebutkan jenis-jenis mobil!",
+        "answers": ["sedan", "suv", "hatchback", "coupe", "convertible" , "minivan", "pickup", "crossover", "station wagon", "roadster" , "supercar", "luxury", "electric", "hybrid", "diesel" , "compact", "full-size", "mid-size", "off-road", "sports car" , "limousine", "van", "microcar", "city car", "muscle car" , "touring car", "dragster", "formula car", "rally car"]
     }
 ]
 
