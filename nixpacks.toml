@@ -1,2 +1,5 @@
 [providers]
 python = "3.11"
+
+[variables]
+MISE_PYTHON_GITHUB_ATTESTATIONS = "false"
