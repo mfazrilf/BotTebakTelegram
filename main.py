@@ -368,22 +368,22 @@ async def start_handler(update: Update, context: ContextTypes.DEFAULT_TYPE) -> N
 Hello {user.first_name}!
 
 <b>How to play:</b>
-1. Type /mulai to start a round
-2. I'll show a question with empty answer slots
-3. Type your answer (without command)
-4. Correct answers earn +1 point
-5. Round ends when all slots are filled
-6. Type /skor to see leaderboard
+1. Ketik /mulai untuk memulai ronde
+2. Akan saya berikan pertanyaan 
+3. Berikan jawaban (tanpa "/")
+4. Jawaban benar mendapatkan +1 point
+5. Ronde Selesai ketika semua jawaban terpenuhi
+6. Ketik /skor untuk melihat skor
 
 <b>Commands:</b>
-/start  - Show this message
-/mulai  - Start new round
-/nyerah - End round (hide unanswered)
-/next   - Next question
-/skor   - Leaderboard
-/poin   - Your score
+/start  - Menampilkan pesan ini
+/mulai  - Memulai ronde awal
+/nyerah - Menyerah (yah ampas pada gabisa jawab)
+/next   - Pertanyaan selanjutnya
+/skor   - Peringkat
+/poin   - Skor kamu, manisku
 
-Scores are saved per chat. Let's play!"""
+Skor tercatat gatau hilang atau ngga yaudah. Ayo Main!"""
         
         await update.message.reply_text(
             welcome_message,
