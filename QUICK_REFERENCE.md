@@ -22,12 +22,12 @@ Buka Telegram, cari bot Anda, ketik `/start`
 ## Semua Komando
 
 ```
-/start   👉 Sambutan & panduan
-/mulai   👉 Mulai game baru
-/nyerah  👉 Akhiri & buka jawaban
-/next    👉 Soal berikutnya
-/skor    👉 Leaderboard
-/poin    👉 Skor personal Anda
+/start    Sambutan & panduan
+/mulai    Mulai game baru
+/nyerah   Akhiri & buka jawaban
+/next     Soal berikutnya
+/skor     Leaderboard
+/poin     Skor personal Anda
 ```
 
 ---
@@ -126,7 +126,7 @@ python main.py
 
 ---
 
-## 🚀 Deployment Tips
+##  Deployment Tips
 
 **Local Development**
 ```bash
