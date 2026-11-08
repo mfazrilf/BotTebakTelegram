@@ -1,12 +1,12 @@
-# PANDUAN INSTALASI LENGKAP BOT TEBAK-TEBAKAN 🎯
+# PANDUAN INSTALASI LENGKAP BOT TEBAK-TEBAKAN 
 
-## 📋 Prasyarat
+##  Prasyarat
 - Python 3.9 atau lebih tinggi
 - Pip (Python package manager)
 - Akun Telegram
 - Bot token dari @BotFather
 
-## ⚙️ LANGKAH-LANGKAH INSTALASI
+##  LANGKAH-LANGKAH INSTALASI
 
 ### 1. Persiapan Awal
 
@@ -22,7 +22,7 @@ venv\Scripts\activate
 
 #### macOS/Linux (Terminal):
 ```bash
-cd ~/Documents/Bot_tebak_tele
+cd "filemu"
 
 # Buat virtual environment (recommended)
 python3 -m venv venv
@@ -95,17 +95,17 @@ python main.py
 Jika berhasil, akan muncul:
 ```
 2025-01-20 14:30:45,123 - root - INFO - ✓ Database initialized successfully
-2025-01-20 14:30:46,789 - root - INFO - 🤖 Bot dimulai...
+2025-01-20 14:30:46,789 - root - INFO -  Bot dimulai...
 ```
 
-## 🎮 Testing Bot
+##  Testing Bot
 
 1. Buka Telegram
 2. Cari username bot Anda (contoh: @tebak_tebakan_bot)
 3. Klik `/start` atau ketik manual
 4. Ikuti instruksi: `/mulai` untuk memulai game
 
-## 📂 Struktur File
+##  Struktur File
 
 ```
 Bot_tebak_tele/
@@ -118,7 +118,7 @@ Bot_tebak_tele/
 └── trivia_game.db          # Database SQLite (auto-created)
 ```
 
-## 🔧 Troubleshooting
+##  Troubleshooting
 
 ### Masalah: "BOT_TOKEN tidak ditemukan"
 **Solusi:**
@@ -162,7 +162,7 @@ python main.py
 - Tekan `Ctrl+C` lalu Enter
 - Atau tutup terminal window langsung
 
-## 📊 Database & Storage
+##  Database & Storage
 
 Bot menggunakan SQLite untuk menyimpan:
 - **Skor user** per grup/chat
@@ -173,7 +173,7 @@ File database: `trivia_game.db` (auto-created)
 
 Database akan di-reset setiap kali bot di-restart (untuk demo). Untuk production, uncomment line di `init_database()`.
 
-## 🚀 Advanced Usage
+##  Advanced Usage
 
 ### Menjalankan Bot di Background (Linux/macOS)
 
@@ -211,7 +211,7 @@ tail -f bot.log
 python main.py 2>&1 | tee bot.log
 ```
 
-## 💡 Tips & Trik
+##  Tips & Trik
 
 1. **Disable read receipts di Telegram** untuk UX yang lebih baik
 2. **Invite bot ke grup** dengan mengklik `/start` terlebih dahulu
@@ -219,20 +219,20 @@ python main.py 2>&1 | tee bot.log
 4. **Backup database**: `cp trivia_game.db trivia_game.db.backup`
 5. **Multiple bots**: Buat beberapa bot dengan token berbeda
 
-## 📚 Dokumentasi Lengkap
+##  Dokumentasi Lengkap
 
 - [Python Telegram Bot Docs](https://docs.python-telegram-bot.org/)
 - [Telegram Bot API](https://core.telegram.org/bots/api)
 - [SQLite Documentation](https://www.sqlite.org/docs.html)
 
-## 🆘 Butuh Bantuan?
+##  Butuh Bantuan?
 
 1. Baca komentar di code `main.py`
 2. Cek log output di terminal
 3. Lihat section Troubleshooting di atas
 4. Pastikan Python version 3.9+: `python --version`
 
-## ✅ Checklist Pre-Launch
+##  Checklist Pre-Launch
 
 - [ ] Python 3.9+ terinstall
 - [ ] File `requirements.txt` tersedia
@@ -246,7 +246,3 @@ python main.py 2>&1 | tee bot.log
 - [ ] `/skor` menampilkan hasil dengan benar
 
 ---
-
-**Bot siap digunakan! 🎉**
-
-Selamat bermain dan enjoy tebak-tebakan bersama teman-teman! 🚀
