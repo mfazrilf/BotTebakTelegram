@@ -151,4 +151,5 @@ railway restart
 
 ---
 
-**Selamat! Bot Anda sekarang berjalan di cloud 24/7!** 🚀
+**Selamat! Bot Anda sekarang berjalan**
+
