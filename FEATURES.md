@@ -1,6 +1,6 @@
-# DOKUMENTASI FITUR BOT TEBAK-TEBAKAN 🎯
+# DOKUMENTASI FITUR BOT TEBAK-TEBAKAN 
 
-## 📖 Daftar Fitur Lengkap
+##  Daftar Fitur Lengkap
 
 ### 1. KOMANDO UTAMA
 
@@ -121,13 +121,13 @@
   ```
   ❓ Pertanyaan: [soal text]
   
-  📝 Papan Jawaban:
+   Papan Jawaban:
   1. [jawaban 1] (+1) [@user1]
   2. __________
   3. [jawaban 3] (+1) [@user2]
   ...
   
-  📊 Jawaban: 2/5
+   Jawaban: 2/5
   ```
 
 #### Sistem Poin (+1)
@@ -372,7 +372,7 @@ main.py (2500+ lines)
 
 ---
 
-## 🧪 Testing Checklist
+##  Testing Checklist
 
 - [ ] `/start` menampilkan welcome message
 - [ ] `/mulai` memulai ronde baru
@@ -389,22 +389,7 @@ main.py (2500+ lines)
 
 ---
 
-## 📈 Performance & Scalability
-
-- **User Limit**: 10,000+ concurrent users
-- **Memory**: ~50MB untuk 1000 active chats
-- **Database**: SQLite efficient untuk dataset kecil-medium
-- **Polling**: Default polling setiap detik
-- **Latency**: <1 detik untuk update
-
-## 🔒 Security Considerations
-
-- **Token Storage**: Disimpan di `.env` (tidak di git)
-- **No SQL Injection**: Gunakan parameterized queries
-- **Input Validation**: Normalize semua input
-- **Rate Limiting**: Telegram built-in rate limit
-- **Logging**: Jangan log sensitive data
 
 ---
 
-Dokumentasi lengkap untuk Bot Tebak-Tebakan ✅
+Dokumentasi lengkap untuk Bot Tebak-Tebakan 
