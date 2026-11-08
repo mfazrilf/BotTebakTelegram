@@ -19,7 +19,7 @@ Buka Telegram, cari bot Anda, ketik `/start`
 
 ---
 
-## 🎮Semua Komando
+## Semua Komando
 
 ```
 /start   👉 Sambutan & panduan
