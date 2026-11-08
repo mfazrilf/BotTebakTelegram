@@ -5,7 +5,7 @@
 Buka PowerShell/Terminal di folder project dan jalankan:
 
 ```powershell
-cd C:\Users\Fazril\Documents\Bot_tebak_tele
+cd C:\Users\usermu\Documents\Bot_tebak_tele
 git init
 git config user.name "Your Name"
 git config user.email "your.email@example.com"
@@ -67,12 +67,3 @@ Setelah push berhasil, cek di GitHub:
 - `.env.example` - Template config
 - `README.md` - Dokumentasi
 - `.gitignore` - Git config
-
-## Tips
-
-1. Jangan pernah push `.env` dengan token real!
-2. Selalu commit sebelum push
-3. Gunakan pesan commit yang deskriptif
-4. Update `.env.example` jika ada perubahan variabel environment
-
-Selamat! Repository Anda sudah siap di GitHub! 🚀
