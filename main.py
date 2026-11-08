@@ -34,10 +34,10 @@ from telegram.ext import (
 from telegram.error import TelegramError
 from telegram.constants import ChatAction
 
-# Import dotenv
+
 from dotenv import load_dotenv
 
-# Logging configuration
+
 
 logging.basicConfig(
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
@@ -46,7 +46,7 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-# Database configuration
+
 
 DB_PATH = Path("trivia_game.db")
 
@@ -56,7 +56,7 @@ def init_database():
         conn = sqlite3.connect(DB_PATH)
         cursor = conn.cursor()
         
-        # Table: user scores per chat
+    
         cursor.execute('''
             CREATE TABLE IF NOT EXISTS scores (
                 id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -71,7 +71,7 @@ def init_database():
             )
         ''')
         
-        # Tabel game_state: menyimpan state game per chat
+       
         cursor.execute('''
             CREATE TABLE IF NOT EXISTS game_state (
                 id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -84,7 +84,7 @@ def init_database():
             )
         ''')
         
-        # Tabel round_answers: menyimpan jawaban yang sudah diterima
+ 
         cursor.execute('''
             CREATE TABLE IF NOT EXISTS round_answers (
                 id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -107,7 +107,6 @@ def init_database():
         logger.error(f"Database init error: {e}")
         raise
 
-# Database operations
 
 class ScoreManager:
     """Handle score and leaderboard database operations."""
@@ -192,7 +191,6 @@ class ScoreManager:
             logger.error(f"Error getting leaderboard: {e}")
             return []
 
-# Game data - 15 trivia questions with 5 answers each
 
 QUIZ_DATA = [
     {
@@ -345,12 +343,11 @@ QUIZ_DATA = [
     }
 ]
 
-# Game state management
+
 
 class GameStateManager:
     """Manage game state per chat."""
     
-    # In-memory game state (resets on bot restart)
     _game_states: Dict = defaultdict(lambda: {
         'current_question_index': 0,
         'round_active': False,
@@ -403,7 +400,6 @@ class GameStateManager:
         answer_count = len(QUIZ_DATA[question_idx]['answers'])
         return state['answered_count'] == answer_count
 
-# Helper functions
 
 def normalize_answer(answer: str) -> str:
     """Normalize answer for matching."""
@@ -445,7 +441,7 @@ def get_current_board(chat_id: int) -> str:
         logger.error(f"Error generating board: {e}")
         return "Error generating board"
 
-# Command handlers
+
 
 async def start_handler(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     """Handle /start command."""
@@ -630,7 +626,7 @@ async def poin_handler(update: Update, context: ContextTypes.DEFAULT_TYPE) -> No
             parse_mode=ParseMode.HTML
         )
 
-# Message handler - detect quiz answers
+
 
 async def message_handler(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     """Handle text messages - detect quiz answers."""
@@ -693,7 +689,6 @@ async def message_handler(update: Update, context: ContextTypes.DEFAULT_TYPE) ->
     except Exception as e:
         logger.error(f"Error in message_handler: {e}")
 
-# Bot application
 
 def main():
     """Initialize and run bot."""
