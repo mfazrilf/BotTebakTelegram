@@ -15,7 +15,7 @@ Panduan lengkap untuk deploy Telegram Quiz Bot ke Railway.
 File `Procfile` sudah dibuat. Commit dan push ke GitHub:
 
 ```powershell
-cd C:\Users\Fazril\Documents\Bot_tebak_tele
+cd "filemu"
 git add Procfile
 git commit -m "Add Procfile for Railway worker"
 git push origin main
@@ -42,7 +42,7 @@ git push origin main
    
    Contoh:
    ```
-   BOT_TOKEN = 1234567890:ABCDEFGHijklmnopqrstuvwxyz1234567890
+   BOT_TOKEN = "token_kamu"
    ```
 4. Klik **"Add"**
 
