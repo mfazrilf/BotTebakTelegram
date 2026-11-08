@@ -1,6 +1,6 @@
-# BOT TEBAK-TEBAKAN - QUICK REFERENCE 📚
+# BOT TEBAK-TEBAKAN - QUICK REFERENCE 
 
-## ⚡ Quick Start (3 Langkah)
+## Quick Start (3 Langkah)
 
 ### 1. Setup
 ```bash
@@ -19,7 +19,7 @@ Buka Telegram, cari bot Anda, ketik `/start`
 
 ---
 
-## 🎮 Semua Komando
+## 🎮Semua Komando
 
 ```
 /start   👉 Sambutan & panduan
@@ -32,7 +32,7 @@ Buka Telegram, cari bot Anda, ketik `/start`
 
 ---
 
-## 🎯 Cara Bermain
+##  Cara Bermain
 
 1. Ketik `/mulai` → Bot kirim pertanyaan
 2. Jawab pertanyaan (message biasa, tanpa `/`)
@@ -43,7 +43,7 @@ Buka Telegram, cari bot Anda, ketik `/start`
 
 ---
 
-## 📁 File Penting
+## File Penting
 
 | File | Fungsi |
 |------|--------|
@@ -56,7 +56,7 @@ Buka Telegram, cari bot Anda, ketik `/start`
 
 ---
 
-## 🔧 Troubleshooting Cepat
+## Troubleshooting Cepat
 
 | Problem | Solution |
 |---------|----------|
@@ -67,7 +67,7 @@ Buka Telegram, cari bot Anda, ketik `/start`
 
 ---
 
-## 📊 Database
+##  Database
 
 - **File**: `trivia_game.db` (auto-created)
 - **Tabel Utama**: `scores` (chat_id, user_id, score)
@@ -76,7 +76,7 @@ Buka Telegram, cari bot Anda, ketik `/start`
 
 ---
 
-## 🧪 Test Checklist
+##  Test Checklist
 
 ```bash
 # Terminal 1: Jalankan bot
@@ -94,7 +94,7 @@ python main.py
 
 ---
 
-## 💻 System Requirements
+##  System Requirements
 
 - Python 3.9+
 - pip (Python package manager)
@@ -103,7 +103,7 @@ python main.py
 
 ---
 
-## 📚 Dokumentasi
+##  Dokumentasi
 
 **Lengkap**: Baca `FEATURES.md` untuk doc detail
 **Setup**: Baca `INSTALL.md` untuk setup guide
@@ -111,18 +111,18 @@ python main.py
 
 ---
 
-## 🎯 Fitur Tersedia
+##  Fitur Tersedia
 
-✅ 6 Komando lengkap
-✅ Auto-detect jawaban
-✅ Real-time papan update
-✅ Sistem poin (+1)
-✅ Leaderboard per grup
-✅ Database SQLite persistent
-✅ Error handling lengkap
-✅ Async/await optimal
-✅ 8 Soal tebak-tebakan
-✅ 45+ Total jawaban
+ 6 Komando lengkap
+ Auto-detect jawaban
+ Real-time papan update
+ Sistem poin (+1)
+ Leaderboard per grup
+ Database SQLite persistent
+ Error handling lengkap
+ Async/await optimal
+ 8 Soal tebak-tebakan
+ 45+ Total jawaban
 
 ---
 
@@ -143,15 +143,15 @@ Gunakan Task Scheduler atau Start-Job
 
 ---
 
-## 🔒 Security Reminder
+##  Security Reminder
 
-⚠️ **JANGAN**:
+ **JANGAN**:
 - Bagikan file `.env`
 - Commit `.env` ke git
 - Log token ke console
 - Push `.env` ke repository
 
-✅ **LAKUKAN**:
+ **LAKUKAN**:
 - Keep `.env` in `.gitignore`
 - Backup database secara berkala
 - Monitor bot logs untuk error
@@ -159,7 +159,7 @@ Gunakan Task Scheduler atau Start-Job
 
 ---
 
-## 📞 Common Questions
+##  Common Questions
 
 **Q: Bisa edit soal?**
 A: Ya, edit array `QUIZ_DATA` di `main.py` (line ~200)
@@ -178,7 +178,7 @@ A: Tidak, SQLite sudah included
 
 ---
 
-## 📈 Performance
+##  Performance
 
 - Startup: <2 seconds
 - Answer detection: <100ms
@@ -187,13 +187,4 @@ A: Tidak, SQLite sudah included
 
 ---
 
-## 🎉 Siap!
-
-Bot Anda sudah ready production! 🚀
-
-1. Setup selesai ✅
-2. Token sudah dikonfigurasi ✅
-3. Database auto-created ✅
-4. Semua komando tersedia ✅
-
-**Enjoy! 🎮**
+**Enjoy!**
